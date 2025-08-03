@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment .delete-comment {
+  background: red;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
