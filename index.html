@@ -16,12 +16,16 @@
 <body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
     <a class="navbar-brand fw-bold" href="/">MyCommunity</a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="/announcements.html">Announcements</a></li>
         <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
         <li class="nav-item"><button class="btn btn-outline-primary me-2">Feedback</button></li>
         <li class="nav-item"><button class="btn btn-outline-dark" onclick="location.href='/login.html'">Admin Login</button></li>
       </ul>
@@ -40,7 +44,6 @@
     © 2025 Community Notice Board <br> Created by HIRDESH (IT)
   </footer>
 
-  <!-- Modal -->
   <div class="modal fade" id="noticeModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content p-3">
@@ -48,7 +51,7 @@
         <input class="form-control mb-2" type="text" id="noticeTitle" placeholder="Title" />
         <textarea class="form-control mb-2" id="noticeText" placeholder="Write your notice..."></textarea>
         <select class="form-select mb-3" id="noticeType">
-            <option value="Announcements">Announcements</option>
+          <option value="Announcements">Announcements</option>
           <option value="Event">Event</option>
         </select>
         <div class="d-flex justify-content-end">
@@ -63,6 +66,5 @@
   <script src="script.js"></script>
   <script src="viewNotices.js"></script>
   <script src="auth.js"></script>
-
 </body>
 </html>
