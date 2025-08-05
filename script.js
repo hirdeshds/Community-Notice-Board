@@ -33,6 +33,34 @@ let notices = JSON.parse(localStorage.getItem('notices')) || [];
       type: "Announcement",
       date: "2025-07-28",
       comments: []
+    },
+    {
+      title: "📣 Buy Car",
+      text: "Buying a used car in good condition. Budget: ₹5,00,000. Contact: 98765XXXXX",
+      type: "Buy",
+      date: "2025-07-28",
+      comments: []
+    },
+    {
+      title: "📣 Sell bike",
+      text: "Selling my Honda CB Shine 2018 model, single owner, well maintained. Price: ₹60,000. Contact: 98765XXXXX",
+      type: "Sell",
+      date: "2025-07-28",
+      comments: []
+    },
+    {
+      title: "📣 Rent Room",
+      text: "Room available for rent in Sector 15, fully furnished, near metro station. Rent: ₹10,000/month. Contact: 98765XXXXX",
+      type: "Rent",
+      date: "2025-07-28",
+      comments: []
+    },
+    {
+      title: "📣 Rent Flat",
+      text: "2BHK flat available for rent in Sector 16, fully furnished, near market. Rent: ₹20,000/month. Contact: 98765XXXXX",
+      type: "Rent",
+      date: "2025-07-28",
+      comments: []
     }
   ];
   localStorage.setItem('notices', JSON.stringify(notices));
