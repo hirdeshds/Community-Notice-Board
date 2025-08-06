@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCmUEk1FpVsrSfnEiz0M2r6i2n66gfGNZg",
+  apiKey: "API",
   authDomain: "community-notice-board-b6940.firebaseapp.com",
   databaseURL: "https://community-notice-board-b6940-default-rtdb.firebaseio.com",
   projectId: "community-notice-board-b6940",
@@ -9,3 +9,4 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
+
