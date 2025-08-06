@@ -4,3 +4,4 @@ config.js
 # Optional: dotenv (if you shift to real backend)
 .env
 .env.local
+firebase-config.js
